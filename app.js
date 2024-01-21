@@ -13,9 +13,9 @@
 // myName = "Ravi"
 // console.log("My name is ",myName);
 
-// console.log("My variable ",myAge); // undefined
-// var myAge = 25;// assigned a block [] // myAge -> 25
-// console.log("My age is ",myAge); // undefined -> 25
+console.log("My variable ",myAge); // undefined
+var myAge = 25;// assigned a block [] // myAge -> 25
+console.log("My age is ",myAge); // undefined -> 25
 
 // let
 let myName = "Mohit" // 
