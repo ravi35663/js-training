@@ -125,68 +125,68 @@ let name =  first_name + last_name;
     4) Switch
 */
 // Simple if
-if(10 > 4){
-    console.log("10 > 4",10 > 4);
-}
+// if(10 > 4){
+//     console.log("10 > 4",10 > 4);
+// }
 
 // if - else
-if(10 < 4){
-    // code here
-    console.log("If block")
-}else {
-    // code here
-    console.log("else block")
-}
+// if(10 < 4){
+//     // code here
+//     console.log("If block")
+// }else {
+//     // code here
+//     console.log("else block")
+// }
 
 // else if ladder
-if(1 > 2){
-    console.log("1 is greater than 2");
-}else if( 2>3 ){
-    console.log("2 is greater than 3");
-}else if (30 > 4){
-    console.log("3 is greater than 4");
-}else if(10 > 4){
-    console.log("10 is greater than 4");
-}else {
-    console.log("Else block")
-}
+// if(1 > 2){
+//     console.log("1 is greater than 2");
+// }else if( 2>3 ){
+//     console.log("2 is greater than 3");
+// }else if (30 > 4){
+//     console.log("3 is greater than 4");
+// }else if(10 > 4){
+//     console.log("10 is greater than 4");
+// }else {
+//     console.log("Else block")
+// }
 
 
 // Nested if else
-const a = 10
-const b = 100
-if(b > a){
-    const r = b % 10;
-    if(r === 0){
-        console.log("B is divisible by a");
-    }else{
-        console.log("B is not divisible by a");
-    }
-}
+// const a = 10
+// const b = 100
+// if(b > a){
+//     const r = b % 10;
+//     if(r === 0){
+//         console.log("B is divisible by a");
+//     }else{
+//         console.log("B is not divisible by a");
+//     }
+// }
 
 // Switch case
-const value = 1;
-switch(value){
-    case 1:{
-        console.log("Case 1");
-        break;
-    }
-    case 2:{
-        console.log("Case 2");
-        break;
-    }
-    case 3: {
-        console.log("Case 3");
-        break;
-    }
-    case 4: {
-        console.log("Case 4");
-        break;
-    }
-    default:{
-        console.log("Default case");
-    }
-}
+// const value = 1;
+// switch(value){
+//     case 1:{
+//         console.log("Case 1");
+//         break;
+//     }
+//     case 2:{
+//         console.log("Case 2");
+//         break;
+//     }
+//     case 3: {
+//         console.log("Case 3");
+//         break;
+//     }
+//     case 4: {
+//         console.log("Case 4");
+//         break;
+//     }
+//     default:{
+//         console.log("Default case");
+//     }
+// }
 
 /*
     Loops
@@ -196,6 +196,10 @@ switch(value){
         // iteration
         }
     3) do-while(condition);
+    Note: 
+        1) Generally 'for' loop used when we have the given range.like. initial, and final values
+        2) 'while' loop is used when we don't have the given range. 
+        3) 'do-while' loop run at least 1 time rest thing work like while loop.
 */
 // For Loop
 // Way - 1
@@ -226,9 +230,29 @@ switch(value){
 // console.log("Hello World ")
 
 // Way - 5
-for(let i=0; i<=10 ;i++);
-console.log("Hello World ")
+// for(let i=0; i<=10 ;i++);
+// console.log("Hello World ")
 
 
+/*
+    While loop
+    while(){
 
-//Loops (for, while, do-while)
+    } 
+*/
+
+let initialValue = 0;
+let count = 0
+// while(count != 10){
+//     if(initialValue % 2!=0){
+//         console.log("Odd number is ",initialValue);
+//         count++;
+//     }
+//     initialValue++;
+// }
+// count = 2;
+// do{
+//     console.log("Hello World",count)
+//     count--
+// }while(count >= 0);
+
