@@ -1,9 +1,8 @@
 //Variables and Data Types:
-
 /*
     Declaration in JS:
     1) var : 
-    2) let
+    2) let 
     3) const
     let and const introduced in modern javascript (ES-6) (ES-2015)
 */ 
